@@ -1,0 +1,63 @@
+.navbar{
+    background-color: black;
+    padding: 8px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    text-decoration: none;
+}
+.navbar>h1{color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 35px;
+}
+
+.img{
+    background-image: url("assets/img1.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+
+
+
+ul>li {
+    padding: 10px;
+margin: 10px;
+
+}
+ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+}
+.titre{
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 18%;
+    margin-right: 35%;
+
+}
+.text h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 6pc;
+}
+
+.text p{
+    text-align: center;
+}
